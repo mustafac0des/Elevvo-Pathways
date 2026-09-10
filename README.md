@@ -1,3 +1,5 @@
+---
+
 # NLP Projects Portfolio 🧠
 
 This repository is a collection of hands-on projects in Natural Language Processing, demonstrating a range of tasks from fundamental text classification to advanced transformer-based models. Each project highlights a specific NLP technique and its application, with a focus on real-world implementations and actionable results.
@@ -8,8 +10,9 @@ This repository is a collection of hands-on projects in Natural Language Process
 * **Objective:** Classify movie reviews as positive or negative.
 * **Methodology:** Preprocessed, tokenized, and vectorized a dataset of movie reviews.
 * **Key Achievements:**
-    * Implemented and compared **Logistic Regression** and **Naive Bayes** classification pipelines.
-    * Visualized the most frequent words across sentiment classes to identify key polarity indicators.
+    * Implemented and trained a **Logistic Regression** model.
+    * Evaluated an alternative **Naive Bayes** model.
+    * Visualized the most frequent words in positive and negative reviews to gain deeper insights.
 
 ---
 
@@ -17,44 +20,47 @@ This repository is a collection of hands-on projects in Natural Language Process
 * **Objective:** Perform multiclass classification to categorize news articles.
 * **Methodology:** Cleaned and preprocessed the dataset, followed by vectorization.
 * **Key Achievements:**
-    * Built baseline classification with **Logistic Regression** and boosted performance using a custom **Neural Network**.
-    * Plotted word frequency distributions per category to analyze topic separation.
+    * Built classification with a **Logistic Regression** model.
+    * Significantly improved performance with a **neural network**.
+    * Plotted the most frequent words for each news category to understand topic distribution.
 
 ---
 
 ### 3. Fake News Detection 💯
 * **Objective:** Distinguish between true and fake news articles.
-* **Methodology:** Preprocessed and feature-engineered datasets before training.
+* **Methodology:** Preprocessed and feature-engineered the datasets before training.
 * **Key Achievements:**
-    * Developed an end-to-end detection pipeline using **Logistic Regression**.
-    * Generated comparative word visualizations to highlight linguistic differences between real and fabricated articles.
+    * Developed an effective **Logistic Regression** model.
+    * Generated visualizations of the most frequent words in true and fake news to identify distinguishing features.
 
 ---
 
 ### 4. Named Entity Recognition (NER) 🏷️
 * **Objective:** Extract named entities from a news articles dataset.
-* **Methodology:** Implemented both rule-based and model-based entity recognition pipelines.
+* **Methodology:** Implemented both rule-based and model-based entity recognition.
 * **Key Achievements:**
-    * Benchmarked heuristic rule-based pattern matching against pre-trained transformer pipelines.
-    * Built custom visualizers to render extracted entities inline across documents.
+    * Evaluated the rule-based system across entity extractions.
+    * Benchmarked and tested pre-trained models.
+    * Visualized the extracted entities to showcase the model's output.
 
 ---
 
 ### 5. Topic Modeling 📖
-* **Objective:** Discover dominant latent themes within a news articles dataset.
-* **Methodology:** Tokenized the preprocessed dataset and applied unsupervised clustering algorithms.
+* **Objective:** Discover dominant topics within a news articles dataset.
+* **Methodology:** Tokenized the preprocessed dataset and applied two popular models.
 * **Key Achievements:**
-    * Extracted semantic themes using both probabilistic (**LDA**) and matrix factorization (**NMF**) techniques.
-    * Generated word clouds illustrating topic-term distributions for distinct clusters.
+    * Successfully extracted topics using **LDA and NMF models**.
+    * Achieved well-defined topic clusters evaluated via Silhouette analysis.
+    * Visualized topic-word distributions using word clouds.
 
 ---
 
 ### 6. Question Answering ✅
-* **Objective:** Build an extractive QA system using transformers on the SQuAD dataset.
-* **Methodology:** Implemented and fine-tuned a pre-trained **DistilBERT** architecture.
+* **Objective:** Build a QA system using transformers on the SQuAD dataset.
+* **Methodology:** Fine-tuned a pre-trained **DistilBERT** model.
 * **Key Achievements:**
-    * Fine-tuned DistilBERT on context-question pairs to extract precise answer spans.
-    * Evaluated zero-shot baseline performance against the domain-adapted model.
+    * Successfully fine-tuned the model on context-question pairs.
+    * Evaluated and compared performance against a non-fine-tuned baseline to demonstrate pre-trained capabilities.
 
 ---
 
@@ -62,14 +68,18 @@ This repository is a collection of hands-on projects in Natural Language Process
 * **Objective:** Generate concise summaries of news articles.
 * **Methodology:** Utilized a pre-trained **Pegasus** transformer model.
 * **Key Achievements:**
-    * Implemented both extractive heuristic baselines and abstractive sequence-to-sequence generation.
-    * Fine-tuned the Pegasus model to adapt text abstraction to news reporting styles.
+    * Evaluated model performance across standard ROUGE metrics.
+    * Explored and implemented both **extractive and abstractive summarization** techniques.
+    * Fine-tuned the pre-trained model for optimal performance.
 
 ---
 
 ### 8. Resume Screening 🎯
-* **Objective:** Automatically match candidate resumes against target job descriptions.
-* **Methodology:** Employed dense vector similarity scoring using semantic embeddings.
+* **Objective:** Automatically screen resumes against a given job description.
+* **Methodology:** Employed similarity scoring between preprocessed resumes and job descriptions.
 * **Key Achievements:**
-    * Built an automated screening pipeline powered by **Sentence Transformers**.
-    * Added multi-format file parsing and support for both batch and single-document processing workflows.
+    * Developed a complete resume screening application.
+    * The application uses **Sentence Transformers** to find the best-fit resumes.
+    * The tool supports **multiple file formats** and can process resumes in both **batches and individually**.
+
+---
